@@ -22,6 +22,7 @@ jobs:
         run: npm run eslint
       - name: Build
         run: npm run build
+      - uses: actions/checkout@v2
       - name: Bump version and push tag
         if: | 
           ( github.event_name == 'push' )
