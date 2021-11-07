@@ -18,19 +18,19 @@ var uniqueValidator = require('mongoose-unique-validator');
 
 require('dotenv').config()
 
-//if (process.argv.length < 2) {
-//  console.log('Please type the password as an argument: npm start <password>')
-//  process.exit(1)
-//}
+if (process.argv.length < 2) {
+  console.log('Please type the password as an argument: npm start <password>')
+  process.exit(1)
+}
 
-//const password = process.argv[2]
+const password = process.argv[2]
 //const name = process.argv[3]
 //const phone = process.argv[4]
 
+process.env.PASSWORD = password
+
 // 3.21 
 console.log('PASSWORD', process.env.PASSWORD)
-
-//process.env.PASSWORD = password
 
 const url = "mongodb+srv://fullstack:" + process.env.PASSWORD + "@cluster3-13.pmolw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
