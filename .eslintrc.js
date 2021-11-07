@@ -19,9 +19,6 @@ module.exports = {
     ],
     "rules": {
         "react/prop-types": "off",
-        'indent': [
-            'warn',
-            4
-        ],
+        'indent': 'off',
     }
 };
