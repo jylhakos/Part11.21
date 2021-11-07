@@ -16,7 +16,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint './**/*.{js,jsx}'",
+    "eslint": "eslint './**/*.{js,jsx}'"
   },
   "repository": {
     "type": "git",
