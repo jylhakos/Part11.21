@@ -30,7 +30,7 @@ const password = process.argv[2]
 process.env.PASSWORD = password
 
 // 3.21 
-console.log('PASSWORD', process.env.PASSWORD)
+// console.log('PASSWORD', process.env.PASSWORD)
 
 const url = "mongodb+srv://fullstack:" + process.env.PASSWORD + "@cluster3-13.pmolw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
@@ -42,7 +42,7 @@ const url = "mongodb+srv://fullstack:" + process.env.PASSWORD + "@cluster3-13.pm
 
 //console.log('name', name, 'phone', phone)
 
-console.log('url', url)
+// console.log('url', url)
 
 //const url = "mongodb+srv://fullstack:" + password + "@cluster3-13.pmolw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
